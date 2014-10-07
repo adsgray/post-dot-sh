@@ -8,7 +8,7 @@ function genmonth {
 	year=$1
 	month=$2
 
-	posts=`find $year/$month -type f -name \*\.html`
+	posts=`find $year/$month -type f -name \*\.html -printf '%T@ %p\n' | grep -v archive.html | sort -k 1 -n -r | sed 's/^[^ ]* //'`
 
 	echo "<!--#include virtual=\"/~agray/inc/header.html\" -->"
 	echo "<!--#include virtual=\"/~agray/inc/sidebar.html\" -->"
