@@ -14,5 +14,8 @@
 - bash
 - Apache with Server Side Includes enabled for .shtml files
 
+## before deploying to production
+- look through the files and edit the hard-coded directories/etc
+
 ## why did I make this?
 http://tilde.club
