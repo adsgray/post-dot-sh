@@ -15,4 +15,4 @@
 - Apache with Server Side Includes enabled for .shtml files
 
 ## why did I make this?
-(http://tilde.club)
+http://tilde.club
