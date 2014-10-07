@@ -1,0 +1,14 @@
+<div class=\\"post\\">
+<span class=\\"permalink\\"><a name=\\"$SLUG\\" id=\\"$SLUG\\" href=\\"posts/$dir/$SLUG.shtml\\">#</a></span>
+
+<h2>title</h2>
+<h3>
+$DATE
+
+</h3>
+
+<p>
+stuff
+</p>
+
+</div>

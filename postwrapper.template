@@ -1,0 +1,5 @@
+<!-- EDIT THIS -->
+<\!--#include virtual=\\"/~agray/inc/header.html\\" -->
+<\!--#include virtual=\\"/~agray/inc/sidebar.html\\" -->
+<\!--#include virtual=\\"/~agray/posts/$dir/$SLUG.html\\" -->
+<\!--#include virtual=\\"/~agray/inc/footer.html\\" -->
