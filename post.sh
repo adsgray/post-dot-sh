@@ -7,6 +7,12 @@ mkdir -p posts/$dir
 SLUG=$1
 DATE=`date`
 
+if [ "foo$SLUG" == "foo" ]; then
+	echo "usage: ./post.sh SLUG"
+	exit;
+fi
+
+
 
 #function subst() { eval echo -E "$2"; }
 #mapfile -c 1 -C subst < ./post.template
